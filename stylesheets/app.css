@@ -1,0 +1,152 @@
+
+body {
+    margin:0;
+    background: #999;
+
+}
+a {
+    color:#fff;
+    text-decoration: none;
+    text-underline-position: none;
+}
+nav {
+    background: #666;
+    border: solid blue;
+    width: 80%;
+    max-width: 1100px;
+    min-width: 1100px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.droite {
+    float:right;
+    margin-right: 10px;
+}
+nav li {
+    display: inline-block;
+    margin-left: 5px;
+}
+header {
+    overflow: auto;
+}
+main {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #999;
+}
+nav, .cadre_icone, .cadre, .petit_cadre, .cadre_icon, .image, .info_texte {
+    border-radius: 15px;
+}
+.cadre{
+    background: #888;
+    border: solid blue;
+    width: 80%;
+    height: 640px;
+    max-width: 1100px;
+    min-width: 1100px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.petit_cadre {
+    background: #fff;
+    border: solid blue;
+    width: 920px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.cadre_icone {
+    background: #aaa;
+    border:solid blue;
+    border-width: 1px;
+    width: 90px;
+    height: 90px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    float: left;
+}
+.image {
+    background: #fff;
+    border: solid blue;
+    width: 920px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+    background-image: url(../images/devil.png);
+}
+.info_texte {
+    background: #fff;
+    border: solid blue;
+    width: 920px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+    vertical-align: text-bottom;
+}
+
+footer{
+     clear:both;
+}
+.logo {
+    margin-left: 4px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background-image: url(../images/devil.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+.bouton_email {
+    background-image: url(../boutons/email.png);  
+    background-size: contain;
+
+    width: 30px;
+    height: 30px;
+}
+.bouton_facebook {
+    background-image: url(../boutons/facebook.png);  
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+.bouton_twitter {
+    background-image: url(../boutons/twitter.png);  
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+.bouton_compte {
+    background-image: url(../boutons/compte.png);  
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+.bouton_apple {
+    background-image: url(../boutons/apple.png);  
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+.bouton_android {
+    background-image: url(../boutons/android.png);  
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+.bouton_windows {
+    background-image: url(../boutons/windows.png);  
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
