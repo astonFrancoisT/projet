@@ -1,8 +1,14 @@
 
+
+
+@font-face {
+    font-family: "Aladin";
+    src: url('../fonts/Aladin-Regular.ttf');
+}
 body {
+    font-family: Aladin-Regular, Helvetica, Arial, sans-serif;
     margin:0;
     background: #999;
-
 }
 a {
     color:#fff;
@@ -70,6 +76,9 @@ nav, .cadre_icone, .cadre, .petit_cadre, .cadre_icon, .image, .info_texte {
     margin-right: 5px;
     margin-top: 5px;
     float: left;
+    background-image: url(../images/devil.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .image {
     background: #fff;
@@ -92,6 +101,7 @@ nav, .cadre_icone, .cadre, .petit_cadre, .cadre_icon, .image, .info_texte {
     margin-top: 20px;
     text-align: center;
     vertical-align: text-bottom;
+    overflow: hidden;
 }
 
 footer{
@@ -107,46 +117,36 @@ footer{
     background-repeat: no-repeat;
     float: left;
 }
-.bouton_email {
-    background-image: url(../boutons/email.png);  
-    background-size: contain;
-
+.bouton_apple, .bouton_android, .bouton_windows, .bouton_email, .bouton_facebook, .bouton_twitter, .bouton_compte{
     width: 30px;
     height: 30px;
+}
+.bouton_email {
+    background-image: url(../boutons/email.png);  
+    background-size: contain; 
 }
 .bouton_facebook {
     background-image: url(../boutons/facebook.png);  
     background-size: contain;
-    width: 30px;
-    height: 30px;
 }
 .bouton_twitter {
     background-image: url(../boutons/twitter.png);  
     background-size: contain;
-    width: 30px;
-    height: 30px;
+
 }
 .bouton_compte {
     background-image: url(../boutons/compte.png);  
     background-size: contain;
-    width: 30px;
-    height: 30px;
 }
 .bouton_apple {
     background-image: url(../boutons/apple.png);  
     background-size: contain;
-    width: 30px;
-    height: 30px;
 }
 .bouton_android {
     background-image: url(../boutons/android.png);  
     background-size: contain;
-    width: 30px;
-    height: 30px;
 }
 .bouton_windows {
     background-image: url(../boutons/windows.png);  
     background-size: contain;
-    width: 30px;
-    height: 30px;
 }
